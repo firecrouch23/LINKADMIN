@@ -10,7 +10,7 @@ const firebaseConfig = {
   storageBucket: "linkproject13-87bac.firebasestorage.app",
   messagingSenderId: "236408923935",
   appId: "1:236408923935:web:fa1406a3fca7f21c6ff22a"
-};
+};  
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
